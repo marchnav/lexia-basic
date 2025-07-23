@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexia - Asesoría Legal Inteligente</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <header class="bg-primary text-white text-center p-4">
+    <h1>Lexia</h1>
+    <p>Tu abogada virtual, disponible 24/7</p>
+  </header>
+
+  <main class="container mt-4">
+    <section>
+      <h2>¿Qué es Lexia?</h2>
+      <p>Lexia es una herramienta legal automatizada que responde tus preguntas con inteligencia artificial de forma rápida y segura.</p>
+    </section>
+
+    <section class="mt-5">
+      <h3>Beneficios</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Acceso rápido</h5>
+              <p class="card-text">Recibe respuestas legales al instante.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Disponibilidad 24/7</h5>
+              <p class="card-text">Consulta cuando lo necesites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Confidencial</h5>
+              <p class="card-text">Tus datos están protegidos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-4">
+      <button id="cta-btn" class="btn btn-success">Quiero mi asesoría</button>
+      <p id="cta-response" class="mt-2 text-success fw-bold d-none">¡Gracias! Pronto recibirás una respuesta.</p>
+    </section>
+
+    <section class="mt-4">
+      <button id="toggle-testimonios" class="btn btn-outline-primary">Mostrar testimonios</button>
+      <div id="testimonios" class="mt-3 d-none">
+        <blockquote>"Lexia me ayudó a entender mis derechos laborales." - María</blockquote>
+        <blockquote>"Rápido, fácil y confiable." - Juan</blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center p-3 mt-5">
+    <p>&copy; 2025 Lexia - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
